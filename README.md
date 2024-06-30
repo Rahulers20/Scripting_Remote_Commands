@@ -16,10 +16,13 @@ doesn't hang for more than 2 seconds per down server.
 
 -> -f FILE This allows the user to override the default file of /vagrant/servers. This way
 they can create their own list of servers execute commands against that list.
+
 -> -n This allows the user to perform a "dry run" where the commands will be displayed
 instead of executed. Precede each command that would have been executed with
 "DRY RUN: ".
+
 -> -s Run the command with sudo (superuser) privileges on the remote servers.
+
 -> -v Enable verbose mode, which displays the name of the server for which the
 command is being executed on.
 
